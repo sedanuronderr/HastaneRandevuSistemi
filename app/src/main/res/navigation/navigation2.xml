@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation2"
+    app:startDestination="@id/doktorResmi">
+
+    <fragment
+        android:id="@+id/doktorResmi"
+        android:name="com.example.HastaneRandevuSistemi.takvimsaat.doktorResmi"
+        android:label="fragment_doktor_resmi"
+        tools:layout="@layout/fragment_doktor_resmi" >
+        <action
+            android:id="@+id/action_doktorResmi_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.HastaneRandevuSistemi.takvimsaat.BlankFragment"
+        android:label="BlankFragment" >
+        <action
+            android:id="@+id/action_blankFragment_to_doktorResmi"
+            app:destination="@id/doktorResmi" />
+    </fragment>
+</navigation>

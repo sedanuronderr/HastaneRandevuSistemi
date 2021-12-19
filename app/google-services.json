@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "608849399099",
+    "project_id": "hastanerandevusistemi-a1dea",
+    "storage_bucket": "hastanerandevusistemi-a1dea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608849399099:android:0cbd59c3443b053fc7bb1e",
+        "android_client_info": {
+          "package_name": "com.example.HastaneRandevuSistemi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608849399099-spjp27op86hifcovaib2dhq1rumdi07e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqo63mZinAIvhdpxco8QbTjXW800wBW0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608849399099-spjp27op86hifcovaib2dhq1rumdi07e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
