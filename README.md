@@ -1,4 +1,4 @@
-# Firebase,ReyclerView,Navigation Component kütüphaneleri kullanıldı
+# Firebase,ReyclerView,Navigation Component Jetpack libraries were used in the project.
 
 <table>
    
